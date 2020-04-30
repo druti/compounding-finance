@@ -1,0 +1,12 @@
+{
+  "name": "compounding-finance",
+  "version": "0.1.0",
+  "description": "Basic set of compounding functions.",
+  "main": "compound.js",
+  "scripts": {
+    "start": "node compound.js investment=1000000 rate=-0.025 unit=months max=120",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "author": "Andres Carbo",
+  "license": "MIT"
+}
